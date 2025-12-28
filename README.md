@@ -1,8 +1,10 @@
 # Bo / Not Bo Image Classification with Transfer Learning 🐶🚪
 
-This project applies **transfer learning** using a pretrained **VGG16** convolutional neural network to classify images into two categories: **bo** and **not_bo**. The goal is to demonstrate binary image classification using a strong pretrained vision backbone, efficient data preprocessing, and GPU-accelerated training.
+This project implements a binary image classification model designed to control access through an automated dog door.  
+The system distinguishes between an authorized subject (the President’s dog) and all other objects or animals, ensuring that only the intended target can trigger the door mechanism.  
 
-The project emphasizes practical deep learning workflows, including dataset handling, model freezing and fine-tuning, and evaluation on validation data.
+The project demonstrates how a real-world access control problem can be framed as a supervised computer vision task using transfer learning.
+
 <p align="center">
   <img src="image/bo_10.jpg" width="600">
 </p>
